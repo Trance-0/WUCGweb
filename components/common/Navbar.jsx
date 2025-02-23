@@ -66,25 +66,30 @@ function Navbar() {
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav">
+          <li className="nav-item">
+              <a className="nav-link" href="/">
+                <span className="rolling-text">Home</span>
+              </a>
+            </li>
             <li className="nav-item">
               <a className="nav-link" href="/hackathon">
                 <span className="rolling-text">Hackathon</span>
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="/page-404">
                 <span className="rolling-text">FAQ</span>
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
 
         <div className="contact-button">
           <a
-            href="/page-contact"
+            href="https://wustl.presence.io/organization/washington-university-chinese-groundbreakers"
             className="butn butn-sm butn-bg main-colorbg radius-5"
           >
-            <span className="text">Let&apos;s Connect</span>
+            <span className="text">Join US</span>
           </a>
         </div>
       </div>
